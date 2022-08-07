@@ -1,0 +1,12 @@
+.dialog {
+    padding-bottom:  20px;
+}
+
+.dialog a{
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+}
+.dialog.active {
+    color: beige;
+}

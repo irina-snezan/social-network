@@ -1,0 +1,11 @@
+h2 {
+    margin: 20px;
+    color: darkslategray;
+}
+.dialogs_content {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 20px;
+    font-size: 18px;
+}

@@ -1,0 +1,26 @@
+
+.nav {
+    grid-area: n;
+    background-color: lemonchiffon;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    /*padding:  20px;*/
+}
+.menu .item {
+    padding: 10px 20px;
+}
+.item a {
+    color: grey;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+.item a.activeLink {
+    color: brown;
+}
+.active {
+    color: red;
+    cursor: default;
+}
